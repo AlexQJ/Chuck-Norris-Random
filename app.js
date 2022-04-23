@@ -13,6 +13,8 @@ const buscarFrase = async () => {
 
     const texto = document.querySelector('.card-text');
     texto.textContent = frase.value;
+
+
   };
   
   buscarFrase();
